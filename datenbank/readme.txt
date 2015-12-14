@@ -18,3 +18,8 @@ __________________________________________
 Mongodb:
 
 mongoimport --db test --collection person --jsonArray --type json  --file data.json
+________________________________________________
+
+bei sh:
+	in der vi
+		:set fileformat=unix
