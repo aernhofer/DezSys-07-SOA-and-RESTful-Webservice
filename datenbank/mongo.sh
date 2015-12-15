@@ -2,8 +2,8 @@
 
 php generatormongo.php
 
-mongo test --eval "db.person.remove({})"
-mongoimport --host localhost  --db test --collection person --jsonArray --type json  --file data.json
+mongo test --eval "db.data.remove({})"
+mongoimport --host localhost  --db test --collection data --jsonArray --type json  --file data.json
 
 echo "Would you like to log in iknow [y/n]?"
 read ans
