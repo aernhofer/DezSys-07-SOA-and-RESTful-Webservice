@@ -38,16 +38,14 @@
 
           //Schreibt den Befehl in die Datei
           fwrite($GLOBALS['insertFile'], "{
-
-                             firstName: \"'$suchbegrifftmp'\",
-                             lastName: \"'$beschreibungtmp'\"
+                             suchbegriff: \"'$suchbegrifftmp'\",
+                             beschreibung: \"'$beschreibungtmp'\"
                          },\n");
         }
         //noch einmal aber ohne beistrich                  _class: \"hello.Person\",
         fwrite($GLOBALS['insertFile'], "{
-
-                           firstName: \"tests\",
-                           lastName: \"testb\"
+                           suchbegriff: \"tests\",
+                           beschreibung: \"testb\"
                        }]\n");
     }
 
